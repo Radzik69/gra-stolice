@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 80vh 20vh;
+    grid-template-areas: 
+    "gra"
+    "interface";
+  }
+  
+  #gra{
+    grid-area: gra;
+    background-color:darkgray;
+    border: 1px solid white;
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #interface{
+    grid-area: interface;
+    background-color:dimgray
+  }
+  
+  #kraj{
+    width: 300px;
+    height: 450px;
+    border: 1px solid white;
+    color: white;
+  }
+  
+  img{
+    width: 300px;
+    height: 200px;
+  }
+  #Odpowiedz{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 30px;
+    margin-left: 85px;
+    margin-top: 40px;
+    border-radius: 30px;
+  }
+  #start{
+    background-color: black;
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  margin-top: 30px;
+  margin-left: 50px;
+  }
+  #interfejsinfo{
+    color: white;
+    font-size: 20px;
+  }
+  #przegrales{
+    width: 150px;
+    height: 50px;
+    font-size: 50px;
+    margin-top: 300px;
+  }
+  #przegralesdalej{
+    background-color: black;
+    height: 50px;
+    width: 150px;
+    margin-left: 650px;
+    color: white;
+  }
